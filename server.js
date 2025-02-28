@@ -5,7 +5,7 @@ const port = 3000
 
 
 app.get('/', (req,res) => {
-    res.send("hello the shots");
+    res.sendFile(path.join(__dirname, 'public/Views/home.html'));
 })
 
 app.listen(port, () => {
