@@ -1,5 +1,4 @@
 
-
 class Slider{
     
     constructor(){
