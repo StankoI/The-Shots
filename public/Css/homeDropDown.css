@@ -1,0 +1,114 @@
+
+/**/ 
+
+.dropDown{
+    position: relative;
+}
+
+.dropDownContainer{
+    position: absolute;
+    width: 270px;
+    height: 30px;
+    top: 250px;
+}
+
+.show{
+    position: absolute;
+    /* transform: translateY(-50%); */
+    /* width: 200px; */
+    /* height: 20px; */
+    overflow: hidden;
+    background: black;
+    display: grid;
+    grid-template-columns: 100px 150px 20px;
+    grid-template-rows: 20px;
+    border: 2px solid black;
+}
+
+.date{
+    position: absolute;
+    top:0; 
+    visibility: hidden;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    grid-column: 2/3;
+}
+
+.text{
+    grid-column: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    color: gray;
+}
+
+.currentDate{
+    visibility: visible;
+}
+
+.drop{
+    grid-column: 3/4;
+    /* overflow: visible; */
+    background: transparent;
+    border: 0;
+    /* color: white; */
+    background: white;
+    cursor: pointer;
+    overflow: hidden;
+    background-image: url('../Assets/59065.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotateX(0deg);
+    transition: all 0.5s;
+}
+
+/* .lift{
+    background: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    
+} */
+
+.table{
+    /* height: 0; */
+    transform: scaleY(0);
+    transform-origin: top;
+    position: absolute;
+    top:24px;
+    display: grid;
+    grid-template-columns: 100px 150px 20px;
+    /* grid-template-rows: 0fr; */
+    /* overflow: hidden; */
+    background: black;
+    /* visibility: hidden; */
+    transition: all 0.5s;
+    border: 2px solid black;
+}
+
+
+.dayTime{
+    color: white;
+    display: flex;
+    justify-content:center;
+    grid-column: 2/3;
+}
+
+.day{
+    grid-column: 1/2;
+    color: gray;
+    display: flex;
+    justify-content:center;
+}
+
+.cur{
+    font-weight: bold;
+}
