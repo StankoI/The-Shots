@@ -58,7 +58,7 @@
     background: white;
     cursor: pointer;
     overflow: hidden;
-    background-image: url('../Assets/59065.png');
+    background-image: url('/../Assets/59065.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
