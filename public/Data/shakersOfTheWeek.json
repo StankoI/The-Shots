@@ -1,0 +1,78 @@
+[
+    {
+        "name":"stefan",
+        "price":"-∞BGN",
+        "img":"shotIMG2.png",
+        "ingredients":[
+            "DAA",
+            "beer",
+            "gay",
+            "more gay"
+        ]
+    },
+    {
+        "name":"Stefan",
+        "price":"2.50BGN",
+        "img":"shotImg.png",
+        "ingredients":[
+            "whiskey",
+            "vodka",
+            "orange juice",
+            "more vodka"
+        ]
+    },
+    {
+        "name":"Kerem",
+        "price":"2.50BGN",
+        "img":"shotImg.png",
+        "ingredients":[
+            "whiskey",
+            "vodka",
+            "orange juice",
+            "more vodka"
+        ]
+    },
+    {
+        "name":"Alex",
+        "price":"bezcenen",
+        "img":"shotIMG2.png",
+        "ingredients":[
+            "JS",
+            "REACT",
+            "Node",
+            "Express",
+            "more..."
+        ]
+    },
+    {
+        "name":"Stefan",
+        "price":"2.50BGN",
+        "img":"shotImg.png",
+        "ingredients":[
+            "whiskey",
+            "vodka",
+            "orange juice",
+            "more vodka"
+        ]
+    },
+    {
+        "name":"Kerem",
+        "price":"2.50BGN",
+        "img":"shotIMG2.png",
+        "ingredients":[
+            "whiskey",
+            "vodka",
+            "orange juice",
+            "more vodka"
+        ]
+    },
+    {
+        "name":"Sergey",
+        "price":"9,99BGN",
+        "img":"shotIMG2.png",
+        "ingredients":[
+            "vodka",
+            "more vodka"
+        ]
+    }
+]
