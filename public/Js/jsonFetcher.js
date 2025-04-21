@@ -1,9 +1,9 @@
 const container = document.getElementById('container');
 
 
-function createElements(jsonUrl)
+async function createElements(jsonUrl)
 {
-    fetch(jsonUrl)
+    await fetch(jsonUrl)
     .then((response) => {
         return response.json();
     })
