@@ -2,7 +2,7 @@
 export class Promo {
 
     constructor(Id) {
-        this.element = document.getAnimations(Id);
+        this.container = document.getAnimations(Id);
     }
 
     generatePage(data) {
@@ -20,26 +20,18 @@ export class Promo {
 
             const img = document.createElement('div');
             img.classList.add('img');
-
             img.style.backgroundImage = `url(${elem.img})`;
 
-            const ingredients = document.createElement('div');
-            ingredients.classList.add("ingredients");
+            const description = document.createElement('div');
+            ingredients.classList.add("description");
 
-            elem.ingredients.forEach((ingr) => {
-
-                const tmp = document.createElement("h4");
-                tmp.textContent = ingr;
-
-                ingredients.appendChild(tmp);
-            })
-
-            Div.appendChild(ingredients);
+            description.appendChild(document.createTextNode(elem.description));
+            Div.appendChild(description);
             Div.appendChild(name);
             Div.appendChild(age);
             Div.appendChild(img);
 
-            container.appendChild(Div);
+            this.container.appendChild(Div);
         })
     }
 }
