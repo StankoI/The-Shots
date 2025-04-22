@@ -4,22 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../Css/promo.css">
 </head>
 <body>
     <div class = 'wrapper'>
         <div class = 'title'>Vodka 50ml</div>
-        <div class = 'vodkaPromo' id = 'vodkaPromo'></div>
+        <div class = 'container' id = 'vodkaPromo'></div>
         <div class = 'title'>Gin 50ml</div>
-        <div class = 'ginPromo' id = ginPromo></div>
+        <div class = 'container' id = 'ginPromo'></div>
         <div class = 'title'>Wiskey 50ml</div>
-        <div class = 'wiskeyPromo' id = wiskeyPromo></div>
+        <div class = 'container' id = 'wiskeyPromo'></div>
     </div>
     <script type="module" >
         import {Promo} from '../Js/promo.js';
         import {createElements} from '../Js/jsonFetcher.js';
 
         const vodka = new Promo('vodkaPromo');
+        const gin = new Promo('ginPromo');
+        const wiskey = new Promo('wiskeyPromo');
         createElements('../Data/vodkaPromo.json', vodka);
+        createElements('../Data/ginPromo.json', gin);
+        createElements('../Data/wiskeyPromo.json', wiskey);
     </script>
 </body>
 </html>

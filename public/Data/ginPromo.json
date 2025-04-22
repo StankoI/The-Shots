@@ -16,11 +16,5 @@
         "price":"16.00BGN",
         "img":"../Assets/vodka.jpg",
         "description":""
-    },
-    {
-        "name":"Savoy",
-        "price":"16.00BGN",
-        "img":"../Assets/vodka.jpg",
-        "description":""
     }
 ]
