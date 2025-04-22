@@ -6,6 +6,6 @@ export async function createElements(jsonUrl, obj)
         return response.json();
     })
     .then((data) => {
-        obj.generateElement(data);
+        obj.generatePage(data);
     })
 }
