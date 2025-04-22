@@ -2,7 +2,7 @@
 export class Promo {
 
     constructor(Id) {
-        this.container = document.getAnimations(Id);
+        this.container = document.getElementById(Id);
     }
 
     generatePage(data) {
@@ -23,9 +23,9 @@ export class Promo {
             img.style.backgroundImage = `url(${elem.img})`;
 
             const description = document.createElement('div');
-            ingredients.classList.add("description");
-
+            description.classList.add("description");
             description.appendChild(document.createTextNode(elem.description));
+
             Div.appendChild(description);
             Div.appendChild(name);
             Div.appendChild(age);
