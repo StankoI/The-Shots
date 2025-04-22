@@ -1,19 +1,17 @@
 [
     {
-        "name":"stefan",
-        "price":"-∞BGN",
-        "img":"shotIMG2.png",
+        "name":"Bloody Mary",
+        "price":"16.00BGN",
+        "img":"../Assets/shaker.png",
         "ingredients":[
-            "DAA",
-            "beer",
-            "gay",
-            "more gay"
+            "Tomato",
+            "Vodka"
         ]
     },
     {
-        "name":"Stefan",
-        "price":"2.50BGN",
-        "img":"shotImg.png",
+        "name":"Crazy Time",
+        "price":"15.00BGN",
+        "img":"../Assets/shaker.png",
         "ingredients":[
             "whiskey",
             "vodka",
@@ -22,20 +20,20 @@
         ]
     },
     {
-        "name":"Kerem",
-        "price":"2.50BGN",
-        "img":"shotImg.png",
+        "name":"Coconut",
+        "price":"17.50BGN",
+        "img":"../Assets/shaker.png",
         "ingredients":[
             "whiskey",
             "vodka",
-            "orange juice",
+            "coconut water",
             "more vodka"
         ]
     },
     {
-        "name":"Alex",
-        "price":"bezcenen",
-        "img":"shotIMG2.png",
+        "name":"Headshot",
+        "price":"18.00BGN",
+        "img":"../Assets/shaker.png",
         "ingredients":[
             "JS",
             "REACT",
@@ -47,7 +45,7 @@
     {
         "name":"Stefan",
         "price":"2.50BGN",
-        "img":"shotImg.png",
+        "img":"../Assets/shaker.png",
         "ingredients":[
             "whiskey",
             "vodka",
@@ -56,20 +54,21 @@
         ]
     },
     {
-        "name":"Kerem",
-        "price":"2.50BGN",
-        "img":"shotIMG2.png",
+        "name":"Fruit Ninja",
+        "price":"16.00BGN",
+        "img":"../Assets/shaker.png",
         "ingredients":[
-            "whiskey",
-            "vodka",
-            "orange juice",
-            "more vodka"
+            "Vodka",
+            "Banana Liqueur",
+            "Peach Pure",
+            "Orange Juice",
+            "Sprite"
         ]
     },
     {
         "name":"Sergey",
         "price":"9,99BGN",
-        "img":"shotIMG2.png",
+        "img":"../Assets/shaker.png",
         "ingredients":[
             "vodka",
             "more vodka"

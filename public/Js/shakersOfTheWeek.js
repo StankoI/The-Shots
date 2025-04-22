@@ -1,4 +1,4 @@
-class ShakersOfTheWeek{
+export class ShakersOfTheWeek{
 
     constructor()
     {
@@ -17,7 +17,7 @@ class ShakersOfTheWeek{
 
             const age = document.createElement('div');
             age.classList.add('price');
-            age.appendChild(document.createTextNode(elem.age));
+            age.appendChild(document.createTextNode(elem.price));
 
             const img = document.createElement('div');
             img.classList.add('img');
