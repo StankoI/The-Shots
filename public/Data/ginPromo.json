@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Flirt",
+        "price":"40.00BGN",
+        "img":"../Assets/Gin.png",
+        "description":"worst vodka in the world. 40deg vodka from the near by pharmacy mixed with toilet water"
+    },
+    {
+        "name":"Beluga",
+        "price":"16.00BGN",
+        "img":"../Assets/Gin.png",
+        "description":""
+    },
+    {
+        "name":"Absolute",
+        "price":"16.00BGN",
+        "img":"../Assets/Gin.png",
+        "description":""
+    }
+]

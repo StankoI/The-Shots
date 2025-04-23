@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Jack Daniels",
+        "price":"40.00BGN",
+        "img":"../Assets/wiskey.jpg",
+        "description":"worst vodka in the world. 40deg vodka from the near by pharmacy mixed with toilet water"
+    },
+    {
+        "name":"Jack Daniels",
+        "price":"16.00BGN",
+        "img":"../Assets/wiskey.jpg",
+        "description":""
+    },
+    {
+        "name":"Jack Daniels",
+        "price":"16.00BGN",
+        "img":"../Assets/wiskey.jpg",
+        "description":""
+    },
+    {
+        "name":"Jack Daniels",
+        "price":"16.00BGN",
+        "img":"../Assets/wiskey.jpg",
+        "description":""
+    }
+]
