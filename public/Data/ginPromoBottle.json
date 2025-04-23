@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Gin1",
+        "price":"40.00BGN",
+        "img":"../Assets/Gin.png",
+        "description":"just a normal gin"
+    },
+    {
+        "name":"Gin2",
+        "price":"120.00BGN",
+        "img":"../Assets/Gin.png",
+        "description":""
+    },
+    {
+        "name":"Gin3",
+        "price":"79.00BGN",
+        "img":"../Assets/Gin.png",
+        "description":""
+    }
+]
